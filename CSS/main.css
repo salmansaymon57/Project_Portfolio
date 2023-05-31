@@ -126,28 +126,6 @@ body {
   
 }
 
-/* .collapsible__content{
-  display: none;
-}
-
-.collapsible--expanded .collapsible__content{
-  display: block;
-  margin-left: 60%;
-  
-} */
-
-
-.nav__item{
-  color: #28e98c;
-}
-
-.nav__item > a{
-  text-decoration: none;
-  color: #28e98c;
-  font-size: 2rem;
-}
-
-
 
 /* sidebar */
 
