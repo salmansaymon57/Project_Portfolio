@@ -10,6 +10,10 @@ function closeNav() {
 
 
 const mySidebar = document.getElementById('mySidebar');
+const openbtn = document.getElementById('openbtn');
+const closebtn = document.getElementById('closebtn');
+
+
 
 if (window.matchMedia("(max-width: 999px)").matches) {
 mySidebar.onclick = function(){
@@ -17,4 +21,13 @@ mySidebar.onclick = function(){
   }
 }
 
+
+openbtn.onclick = function(){
+  openNav(); 
+}
+
+
+closebtn.onclick = function(){
+  closeNav(); 
+}
 

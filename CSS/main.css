@@ -158,7 +158,7 @@ body {
 }
 
 
-.sidebar .closebtn {
+.sidebar #closebtn {
   position: absolute;
   top: 0;
   right: 25px;
@@ -168,7 +168,7 @@ body {
 
 
 
-.openbtn {
+#openbtn {
   font-size: 20px;
   cursor: pointer;
   background-color: #1f1f1f;
@@ -177,7 +177,7 @@ body {
   border: none;
 }
 
-.openbtn:hover{
+#openbtn:hover{
   background-color: #1f1f1f;
 }
 
@@ -193,7 +193,7 @@ body {
 
 @media screen and (min-width: 1000px) {
   
-  .openbtn{
+  #openbtn{
     display: none;
   }
   .sidebar{
@@ -211,7 +211,7 @@ body {
     padding-top: 1.5rem;
     /* overflow-x: auto;   */
   }
-  .sidebar .closebtn{
+  .sidebar #closebtn{
   display: none;
   top: -10rem;
   }

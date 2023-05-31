@@ -26,8 +26,8 @@
     <p class="animate">Hi</p>
     
     <div id="mySidebar" class="sidebar" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="#">Profile</a>
+        <a href="javascript:void(0)" id="closebtn">×</a>
+        <a href="">Profile</a>
         <a href="#Bio--container">Education</a>
         <a href="#expertise">Specializations</a>
         <a href="#featured">Projects</a>
@@ -35,7 +35,7 @@
     </div>
       
     <div id="main">
-        <button class="openbtn" onclick="openNav()">
+        <button id="openbtn">
             <img class="animate__animated animate__backInLeft menu__bar" src="/Images/menu-bar.png" alt="">
         </button>  
         
@@ -181,13 +181,13 @@
 
     
     <div class="miligram-iso" data-aos="zoom-in" data-aos-duration="900">
-        <form class="miligram_rem">
+        <form action="https://formspree.io/f/xoqzzgpj" method="POST">
             <fieldset>
               <label for="nameField">Name</label>
-              <input type="text" placeholder="Your name" id="nameField">
+              <input type="text" placeholder="Your name" id="nameField" name="name">
               <label for="commentField">Comment</label>
-              <textarea placeholder="Hi Salman …" id="commentField"></textarea>
-              <input class="button-primary" type="submit" value="Send">
+              <textarea placeholder="Hi Salman …" id="commentField" name="Comment"></textarea>
+              <input class="button-primary" type="submit">
             </fieldset>
           </form>
     </div>
